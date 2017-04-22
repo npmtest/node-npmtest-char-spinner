@@ -35,34 +35,49 @@
 ```json
 
 {
-    "name": "char-spinner",
-    "version": "1.0.1",
-    "description": "Put a little spinner on process.stderr, as unobtrusively as possible.",
-    "main": "spin.js",
-    "directories": {
-        "test": "test"
+    "author": {
+        "name": "Isaac Z. Schlueter",
+        "url": "http://blog.izs.me/"
+    },
+    "bugs": {
+        "url": "https://github.com/isaacs/char-spinner/issues"
     },
     "dependencies": {},
+    "description": "Put a little spinner on process.stderr, as unobtrusively as possible.",
     "devDependencies": {
         "tap": "^0.4.10"
     },
-    "scripts": {
-        "test": "tap test/*.js"
+    "directories": {
+        "test": "test"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/isaacs/char-spinner"
+    "dist": {
+        "shasum": "e6ea67bd247e107112983b7ab0479ed362800081",
+        "tarball": "https://registry.npmjs.org/char-spinner/-/char-spinner-1.0.1.tgz"
     },
+    "gitHead": "091b2ff5960aa083f68a5619fa93999d072aa152",
+    "homepage": "https://github.com/isaacs/char-spinner",
     "keywords": [
         "char",
         "spinner"
     ],
-    "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/isaacs/char-spinner/issues"
+    "main": "spin.js",
+    "maintainers": [
+        {
+            "name": "isaacs"
+        }
+    ],
+    "name": "char-spinner",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/isaacs/char-spinner.git"
     },
-    "homepage": "https://github.com/isaacs/char-spinner"
+    "scripts": {
+        "test": "tap test/*.js"
+    },
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
